@@ -1,0 +1,325 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.fullweb{
+    width: 100%;
+}
+.first{
+    background-image: url("https://img.hotimg.com/photo-1471879832106-c7ab9e0cee230a9d0d40a56500b3.jpeg");
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    display: inline-block;
+}
+.first img{
+    display: inline-block;
+    position: relative;
+    left: 200px;
+    top: 50px;
+}
+.first ul{
+    text-align: right;
+    margin-right: 200px;
+}
+.first ul li{
+    display: inline-block;
+    list-style: none;
+}
+.first ul li a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px;
+    transition: .5s;
+}
+.first ul li a:hover{
+    color: tomato;
+}
+.first h1{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 200px;
+    left: 0;
+}
+.first h1::before{
+    content: "“";
+    color: #ef664d;
+    position: relative;
+    bottom: 10px;
+}
+.first h1::after{
+    content: "”";
+    color: #ef664d;
+    position: relative;
+    bottom: 10px;
+}
+
+.second{
+    width: 600px;
+    height: 300px;
+    display: inline-block;
+}
+.second img{
+    height: 100px;
+    width: 150px;
+    border: 1px solid tomato;
+    margin-left: 200px;
+    margin-top: 120px;
+    box-shadow: 0px 0px 14px 1px black;
+}
+.second h2{
+    display: inline-block;
+    position: relative;
+    left: 250px;
+    top: -160px;
+}
+.second p{
+    display: inline-block;
+    position: relative;
+    left: 450px;
+    top: -130px;
+}
+/* services */
+.service{
+    background-color: rgb(1, 1, 32);
+    color: #fff;
+    width: 100%;
+    height: 500px;
+}
+.service h2.one{
+    text-align: center;
+    color: tomato;
+    position: relative;
+    top: 80px;
+    left: 0;
+}
+.service .fa-tv{
+    background-color: tomato;
+    padding: 15px;
+    border-radius: 5px 25px;
+    position: relative;
+    left: 300px;
+    top: 140px;
+}
+.service .fa-print{
+    background-color: tomato;
+    padding: 15px;
+    border-radius: 5px 25px;
+    position: relative;
+    left: 650px;
+    top: 1px;
+}
+.service .fa-code{
+    background-color: tomato;
+    padding: 15px;
+    border-radius: 5px 25px;
+    position: relative;
+    left: 1000px;
+    top: -140px;
+}
+.service h2.two{
+    position: relative;
+    left: 259px;
+    top: 155px;
+}
+.service h2.three{
+    position: relative;
+    left: 595px;
+    top: 16px
+}
+.service h2.four{
+    position: relative;
+    left: 913px;
+    top: -128px;
+}
+.service ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+.service ul li::before{
+    content:"\f560";
+    font: var(--fa-font-solid);
+    color: tomato;
+}
+.service ul.design{
+    position: relative;
+    left: 204px;
+    top: 175px;
+}
+.service ul.print{
+    position: relative;
+    left: 556px;
+    top: 37px;
+    
+}
+.service ul.development{
+    position: relative;
+    left: 922px;
+    top: -108px;
+}
+.service a{
+    text-decoration: none;
+    display: inline-block;
+    z-index: 1;
+}
+.service a.btn1{
+    background-color: tomato;
+    padding: 10px;
+    color: #fff;
+    border-radius: 3px;
+    box-shadow: 5px 5px 15px 2px rgb(0, 0, 0);
+    position: relative;
+    left: 278px;
+    top: -72px;
+}
+.service a.btn1::before{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background-color: yellow;
+    border-radius: 3px;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    transition: 1s;
+}
+.service a.btn1:hover::before{
+    width: 100%;
+
+}
+.service a:hover{
+    color: black;
+}
+.service a.btn2{
+    background-color: tomato;
+    padding: 10px;
+    color: #fff;
+    border-radius: 3px;
+    box-shadow: 5px 5px 15px 2px rgb(0, 0, 0);
+    position: relative;
+    left: 543px;
+    top: -72px;
+}
+.service a:hover{
+    color: black;
+}
+.service a.btn2::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    background-color: yellow;
+    border-radius: 3px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 1s;
+}
+.service a.btn2:hover::before{
+    height: 100%;
+}
+.service a.btn3{
+    background-color: tomato;
+    padding: 10px;
+    color: #fff;
+    border-radius: 3px;
+    box-shadow: 5px 5px 15px 2px rgb(0, 0, 0);
+    position: relative;
+    left: 819px;
+    top: -72px;
+}
+.service a:hover{
+    color: black;
+}
+.service a.btn3::before{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background-color: yellow;
+    border-radius: 3px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 1s;
+}
+.service a.btn3:hover::before{
+    width: 100%;
+}
+.form{
+    width: 100%;
+    height: 280px;
+    text-align: center;
+}
+.form h2{
+    margin: 40px 0;
+}
+.form input[type="text"]{
+    border: none;
+    width: 400px;
+    border-bottom: 2px solid tomato;
+}
+.form input[type="email"]{
+    border: none;
+    width: 400px;
+    border-bottom: 2px solid tomato;
+}
+.form input[type="tel"]{
+    border: none;
+    width: 400px;
+    border-bottom: 2px solid tomato;
+}
+.form a{
+    text-decoration: none;
+    display: inline-block;
+    background-color: tomato;
+    color: white;
+    border-radius: 3px;
+    box-shadow: 5px 5px 15px 3px gray;
+    margin-top: 20px;
+    position: relative;
+    padding: 10px 80px;
+    z-index: 1;
+}
+.form a::before{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background-color: maroon;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 1s;
+}
+.form a::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background-color: rgb(46, 2, 2);
+    top: 0;
+    right: 0;
+    z-index: -1;
+    transition: 1s;
+}
+.form a:hover::before{
+    width: 50%;
+}
+.form a:hover::after{
+    width: 50%;
+}
+.footer{
+    background-color: rgb(1, 1, 32);
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+.footer span{
+    color: tomato;
+}
